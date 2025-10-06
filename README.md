@@ -92,7 +92,7 @@ source .venv/bin/activate # Windows: .venv\Scripts\activate
 pip install -r requirements.txt # or: pip install flask flask-cors pandas scikit-learn joblib numpy
 A minimal `app.py` (illustrative):
 
-```python
+ python
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 import pandas as pd
